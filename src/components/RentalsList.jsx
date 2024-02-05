@@ -19,6 +19,13 @@ export default function RentalsList() {
           roomType: rentalData.room_type,
           neighbourhood: rentalData.neighbourhood,
           price: rentalData.price,
+          accommodates: rentalData.accommodates,
+          bedrooms: rentalData.bedrooms,
+          beds: rentalData.beds,
+          bathrooms: rentalData.bathrooms,
+          hostName: rentalData.host_name,
+          hostSince: rentalData.host_since,
+          space: rentalData.space,
         };
         return <RentalCard key={rental.id} rental={rental} />;
       })}
