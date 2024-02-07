@@ -1,0 +1,256 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #222222;
+  font-size: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  gap: 10px;
+  padding: 0 16px;
+}
+
+.navbar img {
+  width: 40px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 118px;
+}
+
+.sidebar {
+  background-color: #6d7ecc;
+  padding: 16px;
+  width: 150px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.rentals-section {
+  display: flex;
+}
+
+.RentalCard {
+  border: 1px solid rgba(195, 195, 195, 0.5);
+  border-radius: 10px;
+  width: 40%;
+  margin: 18px;
+  padding: 18px;
+}
+
+.RentalCard a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.rental-data-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rental-image-section {
+  position: relative;
+}
+
+.rental-image-section img {
+  width: 100%;
+}
+
+.edit-travel {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.edit-travel span {
+  color: rgba(55, 55, 55, 0.7);
+  font-size: 24px;
+}
+
+.labels {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.label {
+  display: flex;
+  background-color: rgba(243, 247, 255, 0.6);
+  color: rgb(73, 71, 71);
+  margin: 10px;
+  border-radius: 7px;
+  padding: 10px;
+  align-items: center;
+}
+
+.ErrorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2efe8;
+}
+
+.ErrorImage {
+  height: 1000px;
+}
+
+.AboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.AboutPage h1,
+.AboutPage p {
+  color: black;
+  line-height: 24px;
+  padding: 20px;
+}
+
+.about-page-img {
+  width: 56%;
+}
+
+.SaveRental button {
+  background-color: rgba(187, 187, 187, 0.5);
+  color: black;
+  margin: 10px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.SaveRental {
+  display: flex;
+  gap: 32px;
+}
+
+.RentalItemInfo img {
+  width: 55%;
+  border-radius: 7px;
+}
+
+.ReserveButton {
+  background-color: #6d7ecc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 84px;
+  height: 24px;
+}
+
+.BackButton {
+  background-color: #cbcbcb;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 84px;
+  height: 24px;
+}
+
+.RentalButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.RentalCardDetails {
+  padding: 32px;
+}
+
+.pages {
+  display: flex;
+}
+
+.DashboardPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.DashboardComponent label {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.DashboardComponent input {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 0 10px;
+  width: 60%;
+}
+
+.AddRentalForm {
+  border: 1px solid grey;
+  box-shadow: 0px 2px 3px grey;
+  width: 528px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 24px;
+  border-radius: 4px;
+  line-height: 45px;
+}
+
+.AddRental {
+  background-color: #6d7ecc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 84px;
+  height: 24px;
+}
+
+.RentalsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24;
+  margin: 32px;
+}
