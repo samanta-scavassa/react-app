@@ -1,11 +1,6 @@
-import rentalsData from "../assets/rentals.json";
-
-import { useState } from "react";
 import RentalCard from "./RentalCard";
 
-export default function RentalsList() {
-  const [rentals, setRentals] = useState(rentalsData.results);
-
+export default function RentalsList({ rentals }) {
   return (
     <div className="rental-data-section">
       {rentals.map((rentalData) => {
